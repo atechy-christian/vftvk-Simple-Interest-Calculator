@@ -13,7 +13,8 @@ function compute()
     var result = parseInt(interest) + parseInt(principal);
 
     if(principal <= 0) {
-        alert("Please enter a positive number!")
+        alert("Please enter a positive number!");
+        
     }
     else if (years < 1){
         alert("Please provide number of years!")
